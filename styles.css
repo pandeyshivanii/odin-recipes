@@ -1,0 +1,65 @@
+/* Ge/* General Page Styles */
+body {
+    background-color: black;
+    background-image: url(https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-color: rgba(0, 0, 0, 0.7); /* Adds a dark overlay */
+    background-blend-mode: overlay; /* Blends the overlay with the GIF */
+ /* Replace with your GIF file path */
+    background-repeat: no-repeat;
+    background-size:cover; /* Ensures the GIF covers the entire screen */
+    background-attachment: fixed; /* Keeps the background static while scrolling */
+    color: #FFFDD0; /* Cream color */
+    font-family: 'Verdana', sans-serif; /* Fuller font */
+    font-size: 18px; /* General font size */
+    font-weight: bold;
+    line-height: 1.6; /* Increase spacing for better readability */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Center Align Content */
+h1 {
+    text-align: center;
+    font-size: 36px; /* Larger heading size */
+    text-transform: uppercase;
+    letter-spacing: 2px; /* Adds space between letters */
+    text-shadow: 2px 2px 4px #000; /* Shadow for better visibility */
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px; /* Subheading size */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #000;
+}
+
+/* Links Styling */
+a {
+    color: #FFD700; /* Gold color for links */
+    font-size: 20px; /* Slightly larger for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #FFA500; /* Orange when hovered */
+    text-decoration: underline;
+}
+
+/* Unordered List Styling */
+ul {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    margin: 15px 0; /* Spacing between list items */
+    font-size: 22px; /* Larger size for list items */
+    letter-spacing: 1px; /* Adds space between characters */
+}
+
+
+  
+  
